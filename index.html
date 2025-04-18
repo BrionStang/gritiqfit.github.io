@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GRITIQ is your AI-powered fitness coach for personalized workouts, nutrition, and progress tracking. Train Smart. Go Hard.">
+  <title>GRITIQ – Train Smart. Go Hard.</title>
+  <style>
+    :root {
+      --gritiq-blue: #1488cc;
+      --gritiq-dark: #0d1117;
+      --gritiq-light: #c9d1d9;
+      --gritiq-panel: #1c1f26;
+      --gritiq-accent: #3b99fc;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--gritiq-dark);
+      color: var(--gritiq-light);
+    }
+    header {
+      background-color: var(--gritiq-panel);
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 480px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: var(--gritiq-blue);
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .feature {
+      background-color: var(--gritiq-panel);
+      border-radius: 10px;
+      padding: 1rem;
+      width: 280px;
+    }
+    .cta {
+      background-color: var(--gritiq-accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .cta:hover {
+      background-color: #126bb5;
+      transition: background-color 0.3s ease;
+    }
+    footer {
+      background-color: var(--gritiq-dark);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+    input[type=email] {
+      padding: 0.75rem;
+      width: 260px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/gritiq-logo.png" alt="GRITIQ Logo">
+    <h1>TRAIN SMART. GO HARD.</h1>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <h2>What is GRITIQ?</h2>
+      <p>GRITIQ is your personal fitness coach delivering custom workouts, smart meal plans, and results-driven progress tracking — all in one app.</p>
+    </section>
+
+    <section class="section" id="features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Tailored Workouts</h3>
+          <p>Personalized training plans based on your fitness goals and progress.</p>
+        </div>
+        <div class="feature">
+          <h3>Meal Plans</h3>
+          <p>Customized nutrition plans that align with your workouts and preferences.</p>
+        </div>
+        <div class="feature">
+          <h3>Progress Tracking</h3>
+          <p>Monitor performance and gain insights to keep leveling up.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cta">
+      <h2>Join the Waitlist</h2>
+      <input type="email" placeholder="Enter your email" aria-label="Email address" />
+      <div>
+        <button class="cta">Get Notified</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 GRITIQ. All rights reserved.
+  </footer>
+
+  <!-- Future: Add analytics here -->
+  <!-- <script src="analytics.js"></script> -->
+</body>
+</html>
